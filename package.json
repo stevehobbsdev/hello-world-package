@@ -2,5 +2,9 @@
   "name": "hello-world-package",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": "git://github.com/stevehobbsdev/hello-world-package",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  }
 }
